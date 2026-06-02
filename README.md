@@ -2,8 +2,8 @@
 
 # Yahoo Entertainment News Crawler
 
-1資料爬取與清洗:透過python_Selenium.py達到抓取yahoo即時新聞，並指保留12小內之新聞，將新聞名稱與網址一併列出。
-3.資料結構化與輸出:Save_csv_file.py透過yahoo即時新聞抓取一定數量新聞，並依照輸出欄位等對應做存取，最後存取至CSＶ檔。
+- 1資料爬取與清洗:透過python_Selenium.py達到抓取yahoo即時新聞，並指保留12小內之新聞，將新聞名稱與網址一併列出。
+- 3.資料結構化與輸出:Save_csv_file.py透過yahoo即時新聞抓取一定數量新聞，並依照輸出欄位等對應做存取，最後存取至CSＶ檔。
 
 ## 專案內容
 - `main.py`: 主程式執行檔。
