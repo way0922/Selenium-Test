@@ -19,7 +19,7 @@
 
 ### 1. 下載專案
   git clone https://github.com/way0922/Selenium-Test.git
-  cd Selenium-Test
+  
 
 ### 2. 建置 Docker 鏡像
 docker build -t yahoo-crawler .
