@@ -20,7 +20,7 @@
 ### 1. 下載專案
 將此專案複製到您的本地電腦：
 ```bash
-git clone [https://github.com/way0922/Selenium-Test.git](https://github.com/way0922/Selenium-Test.git)
+git clone https://github.com/way0922/Selenium-Test.git
 cd Selenium-Test
 
 2. 建置 Docker 鏡像
