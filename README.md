@@ -28,7 +28,7 @@ docker build -t yahoo-crawler .
 
 # Windows PowerShell 語法
 ### 3. 執行爬蟲
-docker run --rm -v "${PWD}:/app" yahoo-crawler python main.py crawl
+docker run --rm -v "${PWD}:/app" yahoo-crawler python３ main.py crawl
 
 ### 4.執行分析功能 (Save CSV)
-docker run --rm -v "${PWD}:/app" yahoo-crawler python main.py analyze
+docker run --rm -v "${PWD}:/app" yahoo-crawler python３ main.py analyze
