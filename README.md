@@ -13,7 +13,7 @@
 
 ## 執行需求
 - 已安裝 [Docker Desktop](https://www.docker.com/)。
-- 電腦需具備網際網路連線。
+
 
 ## 如何執行 (使用 Docker)
 
