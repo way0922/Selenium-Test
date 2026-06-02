@@ -9,9 +9,7 @@ import jieba.posseg as pseg
 # Yahoo 娛樂新聞網頁
 WEB_URL = "https://tw.news.yahoo.com/entertainment"
 
-# ====================================================
-# 🔥 關鍵優化：載入自定義娛樂字典
-# ====================================================
+
 ## 加入藝人名稱
 DICT_PATH = "entertainment_dict.txt"
 if os.path.exists(DICT_PATH):
@@ -133,7 +131,8 @@ def analyze_and_structure_data(news_list):
             "新聞來源": news["新聞來源"],
             "新聞內文摘要": news["新聞內文摘要"],
             "實體(人名/團體)": entity_str,
-            "是否為演唱會": is_concert
+            "演唱會": is_concert
+
         })
         
     return structured_data
