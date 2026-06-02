@@ -2,7 +2,8 @@
 
 # Yahoo Entertainment News Crawler
 
-本專案為一個自動化爬蟲程式，用於抓取 Yahoo 娛樂新聞，並將資料整理為 CSV 格式。本專案已完成 Docker 容器化封裝，確保在任何環境下皆能有一致的執行結果。
+1資料爬取與清洗:透過python_Selenium.py達到抓取yahoo即時新聞，並指保留12小內之新聞，將新聞名稱與網址一併列出。
+3.資料結構化與輸出:Save_csv_file.py透過yahoo即時新聞抓取一定數量新聞，並依照輸出欄位等對應做存取，最後存取至CSＶ檔。
 
 ## 專案內容
 - `main.py`: 主程式執行檔。
