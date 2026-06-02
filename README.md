@@ -6,9 +6,9 @@
 
 ## 專案內容
 - `main.py`: 主程式執行檔。
-- `python_Selenium.py`: 包含 Selenium 爬蟲邏輯的模組。
-- `Save_csv_file.py`: 負責處理資料並寫入 CSV 檔案的邏輯。
-- `Dockerfile`: 定義程式執行環境的容器化設定檔。
+- `python_Selenium.py`:  Selenium 爬蟲程式。
+- `Save_csv_file.py`: 負責處理資料並寫入 CSV 檔案程式。
+- `Dockerfile`: 定義程式執行環境的Docker設定檔。
 - `requirements.txt`: 專案所需的 Python 依賴套件清單。
 
 ## 執行需求
