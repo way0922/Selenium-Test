@@ -18,8 +18,6 @@
 ## 如何執行 (使用 Docker)
 
 ### 1. 下載專案
-將此專案複製到您的本地電腦：
-```bash
 git clone https://github.com/way0922/Selenium-Test.git
 cd Selenium-Test
 
@@ -28,4 +26,7 @@ docker build -t yahoo-crawler .
 
 3. 執行爬蟲
 # Windows PowerShell 語法
-docker run --rm -v "${PWD}:/app" yahoo-crawler
+docker run --rm -v "${PWD}:/app" yahoo-crawler python main.py crawl
+
+4.執行分析功能 (Save CSV)
+docker run --rm -v "${PWD}:/app" yahoo-crawler python main.py analyze
